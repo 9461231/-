@@ -6,8 +6,8 @@ spring:
     name: supermarket-backend
   datasource:
     url: jdbc:mysql://localhost:3306/supermarket?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
-    username: root
-    password: "123456"
+    username: your-mysql-username
+    password: "your-mysql-password"
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
